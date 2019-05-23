@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'killsatty') {
-    	message.reply('*dies of curry dehydration');
+    if (message.content === '!killsatty') {
+    	message.reply('*satty dies of curry dehydration*');
   	}
 });
 
